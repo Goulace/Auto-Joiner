@@ -270,3 +270,9 @@ task.spawn(function()
 		end
 	end
 end)
+
+if queue_on_teleport then
+    queue_on_teleport([[
+        loadstring(game:HttpGet("https://github.com/Goulace/Auto-Joiner/edit/main/autojoiner.lua"))()
+    ]])
+end
